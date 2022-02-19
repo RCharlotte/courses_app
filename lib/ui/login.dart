@@ -1,5 +1,6 @@
 import 'dart:html';
 
+import 'package:courses_app/ui/forgot_pass.dart';
 import 'package:courses_app/ui/signup.dart';
 import 'package:courses_app/ui/view_courses.dart';
 import 'package:courses_app/ui/widgets/btn.dart';
@@ -66,7 +67,9 @@ class Login extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
 
                     children: [
-                      TextButton(onPressed: (){}, child: Text("forgot password", style: TextStyle(color: Color.fromRGBO(247, 153, 46, 1)),)),
+                      TextButton(onPressed: (){
+                        Get.to(()=> forgotPass());
+                      }, child: Text("forgot password", style: TextStyle(color: Color.fromRGBO(247, 153, 46, 1)),)),
 
               // adding space
               SizedBox( height: 10,),
