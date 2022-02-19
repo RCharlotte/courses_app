@@ -1,5 +1,7 @@
 import 'dart:html';
 
+import 'package:courses_app/ui/signup.dart';
+import 'package:courses_app/ui/view_courses.dart';
 import 'package:courses_app/ui/widgets/btn.dart';
 import 'package:courses_app/ui/widgets/txt_field.dart';
 import 'package:flutter/material.dart';
@@ -71,13 +73,38 @@ class Login extends StatelessWidget {
 
               //custom button
 
-             // Btn(text: "Login", onPressed: (){}),
+             // 
 
                     ],
 
-              )
+              ),
 
-              
+             SizedBox( height: 10,),
+
+            Btn(text: "Login", onPressed: (){
+              Get.to(()=> ViewCourses());
+
+            }),
+
+            //signup
+            SizedBox( height: 25,),
+
+            InkWell(
+              onTap:() {
+                Get.to(()=> Signup());
+              },
+
+              child: RichText(text: TextSpan(
+                text:"Don\'t have an account?", 
+                style: TextStyle(color: Colors.black87),
+            
+                children: <TextSpan>[
+                  TextSpan(
+                    text: " Sign Up",            
+                    style: TextStyle(color: Color.fromRGBO(230, 88, 62, 1)))
+            
+                ])),
+            )
 
             ],
           ),
