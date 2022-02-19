@@ -20,7 +20,7 @@ class forgotPass extends StatelessWidget {
 
             children: [
 
-               //adding image
+               //adding an image
               Container(
                 height: Get.size.height *.3,
                 width:  Get.size.height *.3,
