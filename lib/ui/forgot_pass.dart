@@ -1,3 +1,4 @@
+import 'package:courses_app/ui/reset_pass.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -45,7 +46,7 @@ class forgotPass extends StatelessWidget {
 
               //custom text field
 
-              TxtField(inputType: TextInputType.emailAddress, hintText: "Email", obscureText: false),
+              TxtField(inputType: TextInputType.emailAddress, hintText: "Enter your Email", obscureText: false),
               
               
 
@@ -55,7 +56,7 @@ class forgotPass extends StatelessWidget {
              SizedBox( height: 16,),
 
             Btn(text: "Reset Password", onPressed: (){
-             // Get.to(()=> ViewCourses());
+              Get.to(()=> ResetPass());
 
             }),
 
