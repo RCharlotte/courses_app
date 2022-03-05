@@ -1,5 +1,6 @@
 import 'dart:html';
 
+import 'package:courses_app/ui/edit_profile.dart';
 import 'package:courses_app/ui/forgot_pass.dart';
 import 'package:courses_app/ui/signup.dart';
 import 'package:courses_app/ui/view_courses.dart';
