@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "AzureFxn",
+			"path": "..\\..\\..\\AzureFxn"
+		},
+		{
+			"name": "azurefunction",
+			"path": "..\\..\\..\\azurefunction"
+		}
+	],
+	"settings": {}
+}

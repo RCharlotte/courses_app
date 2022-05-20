@@ -38,6 +38,7 @@ dependencies:
   parse_server_sdk_flutter: ^3.1.0
   flutter_smart_dialog: ^3.4.0+1
   flutter_spinkit: ^5.1.0
+  flutter_parse: ^1.0.1
 
 dev_dependencies:
   flutter_test:
